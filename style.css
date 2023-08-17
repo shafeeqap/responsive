@@ -1,0 +1,135 @@
+.row-2{
+    font-size: 8px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    
+}
+
+@media  (max-width:1020px){
+    .row-2{
+        height: 80px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+#section{
+    background-color: rgb(238, 237, 237);
+    height: 350px;
+}
+
+.col-md-6 img{
+    width: 250px;
+    padding-top: 50px;
+
+}
+
+.text-container{
+    /* background-color: blueviolet; */
+}
+
+
+@media (max-width:1020px) {
+    .row-5{
+        width: 150px;
+        height: 150px;
+    }
+    .text-container{
+        width: 100%;
+        justify-content: center;
+    
+    }
+    .col-md-6 img{
+        display: none;
+    }
+    .col-md-3 m-4{
+        width: fit-content;
+    }
+}
+
+
+
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section{
+    display: flex;
+    width: 100%;
+}
+
+
+
+.image-container img{
+    width: 100%;
+    padding: 2%;
+}
+
+/* @media (max-width:991px) {
+    .section{
+        flex: calc(100%/3);
+    }
+    
+}
+
+@media (max-width:767px) {
+    .section{
+        flex: 50%;
+    }
+    
+}*/
+
+ @media (max-width:567px) {
+    .section{
+        flex:100%;
+    }
+    
+}
+
+.btn {
+    margin-right: 0.5rem !important
+}
+
+.btn {
+    font-size: 0.875rem;
+    line-height: 1;
+    font-weight: 400;
+    padding: .7rem 1.5rem;
+    border-radius: 0.1275rem
+}
+
+.container {
+    margin-top: 100px
+}
+
+.toast {
+    transition: 0.32s all ease-in-out
+}
+
+.toast-container--fade {
+    right: 0;
+    bottom: 0
+}
+
+.toast-container--fade .toast-wrapper {
+    display: inline-block
+}
+
+.toast.fade-init {
+    opacity: 0
+}
+
+.toast.fade-show {
+    opacity: 1
+}
+
+.toast.fade-hide {
+    opacity: 0
+}
+
+.logo-bottom img{
+    display: flex;
+}
